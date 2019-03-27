@@ -1,0 +1,10 @@
+module.exports = {
+    development : {
+        client : 'sqlite3',
+        useNullAsDefault : true,
+        connection : {
+          filename: './data/zoos.db3'
+        },
+    
+      }
+};
